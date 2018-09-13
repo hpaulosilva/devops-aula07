@@ -24,6 +24,9 @@ else:
         elif jogo[linha][coluna] != '.':
           erro = True
 
+# Se a posição do tabuleiro onde é efetuado a jogada, não estiver vazia, o jogador não poderá efetuar a jogada
+# Ao contrário, se estiver vazia, o jogador poderá efetuar a jogada.
+          
 if erro:
   print('Erro!')
   sys.exit(1)
