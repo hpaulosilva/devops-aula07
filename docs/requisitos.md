@@ -1,9 +1,10 @@
 # Requisitos
 
-## Estados e inicialização do tabuleiro.
+## Estados e inicialização do tabuleiro
 
-* O sistema deverá manter o estado de cada uma das casas de
-um jogo da velha.
+* O jogador deve posicionar um símbolo em uma determinada
+posição do tabuleiro, O sistema deverá informar se é
+possível a jogada ser efetuada ou não. 
 
-* Cada casa do jogo da velha poderá estar vazia, ocupada
-pelo 1o jogador ou ocupada pelo 2o jogador.
+* A jogada não poderá ser efetuada caso já haja um símbolo naquela posição do
+tabuleiro.
