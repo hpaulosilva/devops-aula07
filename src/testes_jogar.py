@@ -23,6 +23,8 @@ else:
 
         elif jogo[linha][coluna] != '.':
           erro = True
+# Se a posição do tabuleiro a ser efetuado, não poderá realizar a jogada.
+# Ao contrário, se a posição estiver vazia, o jogador poderá realizar a jogada.
 
 if erro:
   print('Erro!')
